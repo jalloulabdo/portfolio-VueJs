@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Layout>
+  </Layout>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Layout from './components/Layout/Layout'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Layout,
   }
+
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import "./assets/baseHome.css";
+@import "./assets/swiper-bundle.min.css";
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css';
+@import 'https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap';
+@import 'https://unicons.iconscout.com/release/v3.0.6/css/line.css';
+
+
 </style>
