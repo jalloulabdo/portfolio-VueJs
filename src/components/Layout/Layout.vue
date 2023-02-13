@@ -27,6 +27,7 @@ import ContactMe from './Content/ContactMe'
 
 
 export default {
+    
     name:'LaYout',
     components: {
         Header,
@@ -39,18 +40,6 @@ export default {
         Portfolio,
         ProjectInMind,
         ContactMe
-    },
-    mounted() {
-        const recaptchaScript = document.createElement("script");
-        recaptchaScript.setAttribute(
-            "src",
-            "./assets/js/mainHome.js"
-        );
-        recaptchaScript.setAttribute(
-            "src",
-            "./assets/js/swiperBundle.js"
-        );
-        document.head.appendChild(recaptchaScript);
-    },
+    }
 }
 </script>

@@ -51,8 +51,8 @@
                     </div>
                 </div>
     
-                <div class="">
-                    <button type="submit" class="button button--flex">
+                <div class="" style="float: right;margin-top: 12px;">
+                    <button type="submit" class="button button--flex" style="border: none;">
                         Send Message
                         <i class="uil uil-message button_icon"></i>
                     </button>

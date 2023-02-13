@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="about_buttons">
-                <a href="@/assets/cv.pdf" class="button button--flex">
+                <a href="cv.pdf" class="button button--flex" target="_blank">
                     Download CV <i class="uil uil-download-alt button_icon"></i>
                 </a>
             </div>

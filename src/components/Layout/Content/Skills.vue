@@ -114,7 +114,7 @@
     
                         <div>
                             <h1 class="skills_title">Designer</h1>
-                            <span class="skills_subtitle">More than 5 years</span>
+                            <span class="skills_subtitle"></span>
                         </div>
     
                         <i class="uil uil-angle-down skills_arrow" @click="lastSkill()"></i>

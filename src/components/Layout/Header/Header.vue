@@ -5,30 +5,30 @@
                 JALLOUL ABDERRAHIM
             </a>
     
-            <div class="nav_menu" id="nav-menu">
+            <div class="nav_menu" id="nav-menu" :class="{ show_menu: showMenuMobil === true}">
                 <ul class="nav_list">
                     <li class="nav-item">
-                        <a href="#home"  class="nav_link " @click="showMobileMenu = 'home'" :class="{ active_link: showMobileMenu === 'home'}">Home</a>
+                        <a href="#home"  class="nav_link " @click="activenav = 'home'" :class="{ active_link: activenav === 'home'}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about"  class="nav_link" @click="showMobileMenu = 'about'" :class="{ active_link: showMobileMenu === 'about'}">About</a>
+                        <a href="#about"  class="nav_link" @click="activenav = 'about'" :class="{ active_link: activenav === 'about'}">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#skills"  class="nav_link" @click="showMobileMenu = 'skills'" :class="{ active_link: showMobileMenu === 'skills'}">Skills</a>
+                        <a href="#skills"  class="nav_link" @click="activenav = 'skills'" :class="{ active_link: activenav === 'skills'}">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#services"  class="nav_link" @click="showMobileMenu = 'services'" :class="{ active_link: showMobileMenu === 'services'}">Services</a>
+                        <a href="#services"  class="nav_link" @click="activenav = 'services'" :class="{ active_link: activenav === 'services'}">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav_link" @click="showMobileMenu = 'portfolio'" :class="{ active_link: showMobileMenu === 'portfolio'}">Portfolio</a>
+                        <a href="#portfolio" class="nav_link" @click="activenav = 'portfolio'" :class="{ active_link: activenav === 'portfolio'}">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact"  class="nav_link" @click="showMobileMenu = 'contactme'" :class="{ active_link: showMobileMenu === 'contactme'}">Contact Me</a>
+                        <a href="#contact"  class="nav_link" @click="activenav = 'contactme'" :class="{ active_link: activenav === 'contactme'}">Contact Me</a>
                     </li>
                 </ul>
     
                 <div class="nav_close" id="nav-close">
-                    <i class="uil uil-times nav_close" id="nav-close"></i>
+                    <i class="uil uil-times nav_close" id="nav-close" @click="closemenuButton()"></i>
                 </div>
             </div>
     
@@ -38,7 +38,7 @@
                     @click="functionButton(this)"></i>
     
                 <div class="nav_toogle" id="nav-toggle">
-                    <i class="uil uil-bars"></i>
+                    <i class="uil uil-bars"  @click="menuButton()"></i>
                 </div>
             </div>
         </nav>
@@ -50,14 +50,14 @@ export default {
     name: 'HeaDer',
     data() {
         return {
-             darkTheme : 'dark-theme',
-             iconTheme : 'uil-sun',
-             isnight : false,
-             selectedTheme : '' ,
+            darkTheme : 'dark-theme',
+            iconTheme : 'uil-sun',
+            isnight : false,
+            selectedTheme : '' ,
             selectedIcon: '',
-            showMobileMenu: 'home',
+            activenav: 'home',
             scrollY: window.pageYOffset,
-             
+            showMenuMobil: false
         }
     },
     methods: {
@@ -70,6 +70,12 @@ export default {
             document.body.classList[this.selectedTheme === 'dark' ? 'add' : 'remove'](this.darkTheme)
 
         },
+        menuButton(){
+           this.showMenuMobil = !this.showMenuMobil
+        },
+        closemenuButton(){
+            this.showMenuMobil = !this.showMenuMobil
+        }
     
     }
 }
