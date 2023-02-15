@@ -81,6 +81,10 @@
                         <div>
                             <h3 class="qualification_title">Full-Stack Web Developer</h3>
                             <span class="qualification_subtitle">Flash Web</span>
+                            <ul>
+                                <li>Work with a team of three developper to build a dashboard client web application with laravel</li>
+                                <li>Build real time REST APIs for calculing data in an agro system with laravel</li>
+                            </ul>
                             <div class="qualificaation_calender">
                                 <i class="uil uil-calender-alt"></i>
                                 2020 - 2021
@@ -94,6 +98,12 @@
                         <div>
                             <h3 class="qualification_title">Full-Stack Web Developer</h3>
                             <span class="qualification_subtitle">Green Solutions</span>
+                            <ul>
+                                <li>Work with a variety of different languages, platforms, frameworks such as JavaScript, TypeScript,Laravel and Vuejs</li>
+                                <li>Work with a team of three developper to build a dashboard client web application with laravel</li>
+                                <li>Build a real time irrigation system with laravel and MQTT protocol</li>
+                                <li>Build real time REST APIs for calculing data in an agro system with laravel</li>
+                            </ul>
                             <div class="qualificaation_calender">
                                 <i class="uil uil-calender-alt"></i>
                                 2021 - 2023

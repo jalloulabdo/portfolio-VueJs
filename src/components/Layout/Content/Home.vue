@@ -2,14 +2,15 @@
     <section class="home section" id="home">
         <div class="home_container container grid">
             <div class="home_img">
-                <img src="@/assets/images/home.png" alt="">
+                <img src="@/assets/images/home2.png" alt="">
             </div>
     
             <div class="home_data">
                 <h1 class="home_title">Hi, I'am Jalloul Abderrahim</h1>
                 <h3 class="home_subtitle">Full Stack Developer & Graphic Designer</h3>
                 <p class="home_description">
-                    High level experience in web design,fornt-en and backend development, producing quality work.
+                    I’m a FullStack Developer located in Morocco. I have a serious passion for UI/UX effects, animations and creating REST Api,in general dynamic user experiences. Well-organised person, problem solver,independent employee with high attention to detail. 
+                    Interested in the entire frontend and backend spectrum and working on ambitious projects with positive people.
                 </p>
                 <a href="#contact" class="button button--flex">
                     Contact Me <i class="uil uil-message button__icon"></i>

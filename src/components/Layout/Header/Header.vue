@@ -16,9 +16,9 @@
                     <li class="nav-item">
                         <a href="#skills"  class="nav_link" @click="activenav = 'skills'" :class="{ active_link: activenav === 'skills'}">Skills</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="#services"  class="nav_link" @click="activenav = 'services'" :class="{ active_link: activenav === 'services'}">Services</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a href="#portfolio" class="nav_link" @click="activenav = 'portfolio'" :class="{ active_link: activenav === 'portfolio'}">Portfolio</a>
                     </li>

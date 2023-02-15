@@ -5,7 +5,6 @@
         <About />
         <Skills />
         <Qualification />
-        <Services />
         <Portfolio />
         <ProjectInMind />
         <ContactMe />
@@ -20,7 +19,6 @@ import Home from './Content/Home'
 import About from './Content/About'
 import Skills from './Content/Skills'
 import Qualification from './Content/Qualification'
-import Services from './Content/Services'
 import Portfolio from './Content/Portfolio'
 import ProjectInMind from './Content/Projectinmind'
 import ContactMe from './Content/ContactMe'
@@ -36,7 +34,6 @@ export default {
         About,
         Skills,
         Qualification,
-        Services,
         Portfolio,
         ProjectInMind,
         ContactMe

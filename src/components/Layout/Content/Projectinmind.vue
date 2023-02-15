@@ -10,8 +10,10 @@
                             <i class="uil uil-message project_icon button_icon"></i>
                         </a>
                     </div>
-        
-                    <img src="@/assets/images/home.png" alt="" class="project_img">
+                    <div class="home_img project_img">
+                        <img src="@/assets/images/home2.png" alt="">
+                    </div>
+                    <!-- <img src="@/assets/images/home2.png" alt="" class="project_img"> -->
                 </div>
             </div>
         </section>
@@ -22,3 +24,9 @@ export default {
     name:'ProjectInMind'
 }
 </script>
+
+<style>
+.project_img {
+    background-color: hsl(260deg 60% 99%) !important;
+}
+</style>

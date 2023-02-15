@@ -546,7 +546,7 @@ img {
 }
 
 .skills_html{
-  width: 90%;
+  width: 95%;
 }
 
 .skills_css{
@@ -554,7 +554,10 @@ img {
 }
 
 .skills_javascript{
-  width: 60%;
+  width: 80%;
+}
+.skills_vuejs{
+  width: 70%;
 }
 
 .skills_php{
@@ -572,7 +575,7 @@ img {
 }
 
 .skills_figma{
-  width: 90%;
+  width: 50%;
 }
 
 .skills_sketch{
@@ -1128,7 +1131,10 @@ img {
     padding-top: 30px;
   }
 
-  
+  .project_img {
+    width: 140px;
+    height: 140px;
+  }
 
   .home_img{
     justify-self: center;
@@ -1287,6 +1293,11 @@ img {
     padding-top: 50px;
   }
 
+  .project_img {
+    width: 240px;
+    height: 240px;
+  }
+
   .home_img{
     justify-self: center;
     background-color: var(--first-color);
@@ -1417,7 +1428,10 @@ img {
       width: 440px;
       height: 440px;
     }
-
+    .project_img {
+      width: 340px;
+      height: 340px;
+    }
     .nav_toogle{
       visibility: hidden;
     }

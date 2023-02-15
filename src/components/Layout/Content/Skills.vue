@@ -20,7 +20,7 @@
                         <div class="skills_data">
                             <div class="skills_titles">
                                 <h3 class="skills_name">HTML</h3>
-                                <span class="skills_number">90%</span>
+                                <span class="skills_number">95%</span>
                             </div>
                             <div class="skills_bar">
                                 <span class="skills_percentage skills_html"></span>
@@ -28,7 +28,7 @@
                         </div>
                         <div class="skills_data">
                             <div class="skills_titles">
-                                <h3 class="skills_name">CSS</h3>
+                                <h3 class="skills_name">SASS</h3>
                                 <span class="skills_number">80%</span>
                             </div>
                             <div class="skills_bar">
@@ -37,8 +37,8 @@
                         </div>
                         <div class="skills_data">
                             <div class="skills_titles">
-                                <h3 class="skills_name">JavaScript</h3>
-                                <span class="skills_number">60%</span>
+                                <h3 class="skills_name">JAVASCRIPT</h3>
+                                <span class="skills_number">80%</span>
                             </div>
                             <div class="skills_bar">
                                 <span class="skills_percentage skills_javascript"></span>
@@ -47,19 +47,19 @@
                         <div class="skills_data">
                             <div class="skills_titles">
                                 <h3 class="skills_name">Vue js</h3>
-                                <span class="skills_number">60%</span>
+                                <span class="skills_number">70%</span>
                             </div>
                             <div class="skills_bar">
-                                <span class="skills_percentage skills_javascript"></span>
+                                <span class="skills_percentage skills_vuejs"></span>
                             </div>
                         </div>
                         <div class="skills_data">
                             <div class="skills_titles">
                                 <h3 class="skills_name">nuxt js</h3>
-                                <span class="skills_number">60%</span>
+                                <span class="skills_number">70%</span>
                             </div>
                             <div class="skills_bar">
-                                <span class="skills_percentage skills_javascript"></span>
+                                <span class="skills_percentage skills_vuejs"></span>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                         </div>
                         <div class="skills_data">
                             <div class="skills_titles">
-                                <h3 class="skills_name">Node J6</h3>
+                                <h3 class="skills_name">Node JS</h3>
                                 <span class="skills_number">50%</span>
                             </div>
                             <div class="skills_bar">
@@ -123,7 +123,7 @@
                         <div class="skills_data">
                             <div class="skills_titles">
                                 <h3 class="skills_name">Figma</h3>
-                                <span class="skills_number">90%</span>
+                                <span class="skills_number">50%</span>
                             </div>
                             <div class="skills_bar">
                                 <span class="skills_percentage skills_figma"></span>
