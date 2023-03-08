@@ -39,6 +39,17 @@
                             </p>
                         </div>
                     </div>
+                     <!--============ PORTFOLIO 4 ==============-->
+                     <div class="portfolio_content grid swiper-slide">
+                        <img src="@/assets/images/Screenshot4.png" alt="" class="portfolio_img">
+        
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Yobeen Avertissement</h3>
+                            <p class="portfolio_description">
+                                Yobeen Avertissement est une application simple à utiliser, qui vous fait connecter avec appareil Towasoil par bluetooth, Yobeen Avertissement permet le suivi en temps quasi réel des paramètres de pilotage de l'eau dans le sol à travers la mesure quasi immédiate de plusieurs profondeurs d'enracinement des plantes.
+                            </p>
+                        </div>
+                    </div>
                 </div>
         
                 <!--Add Arrow-->

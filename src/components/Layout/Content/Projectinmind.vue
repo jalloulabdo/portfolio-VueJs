@@ -29,4 +29,5 @@ export default {
 .project_img {
     background-color: hsl(260deg 60% 99%) !important;
 }
+
 </style>

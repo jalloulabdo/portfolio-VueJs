@@ -7,9 +7,11 @@
     
             <div class="home_data">
                 <h1 class="home_title">Hi, I'am Jalloul Abderrahim</h1>
-                <h3 class="home_subtitle">Full Stack Developer & Graphic Designer</h3>
+                <h3 class="home_subtitle">Full Stack Developer</h3>
                 <p class="home_description">
                     I’m a FullStack Developer located in Morocco. I have a serious passion for UI/UX effects, animations and creating REST Api,in general dynamic user experiences. Well-organised person, problem solver,independent employee with high attention to detail. 
+                </p>
+                <p class="home_description">
                     Interested in the entire frontend and backend spectrum and working on ambitious projects with positive people.
                 </p>
                 <a href="#contact" class="button button--flex">
@@ -86,5 +88,9 @@ export default {
 
 .home_scroll-mouse {
     cursor: pointer;
+}
+p.home_description {
+    text-align: justify;
+    font-size: 13px;
 }
 </style>
